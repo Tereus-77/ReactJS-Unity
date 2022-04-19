@@ -1,0 +1,75 @@
+@import "../../assets/sass/main.scss";
+
+.images-section {
+  padding-top: 20px;
+  img {
+    border-radius: 15px;
+  }
+}
+
+.content-loop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video-section {
+  width: 400px;
+}
+
+.action-button {
+  font-size: 26px !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  background-color: $rose !important;
+  color: $white !important;
+  border-radius: 50px !important;
+  padding: 17px 19px !important ;
+  line-height: 1.2 !important;
+  margin: 0 0 4px auto !important;
+
+  &:hover,
+  &:active {
+    background-color: $white !important;
+    border-color: $white !important;
+    color: $rose !important;
+  }
+}
+
+.mint-image-counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.counter-space {
+  margin-right: 70px;
+}
+
+.counter-button {
+  cursor: pointer;
+}
+
+
+@media (max-width: 1430px) {
+  .content-loop {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nft-video {
+    padding: 0 0 69px 0;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .images-section img {
+    border-radius: 50px;
+    width: 100px;
+  }
+}

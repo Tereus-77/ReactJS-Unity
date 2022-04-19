@@ -1,0 +1,94 @@
+@import "../../assets/sass/main.scss";
+
+@mixin menu-font {
+  font-family: $font-family-sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin menu-active {
+  border-radius: 50px;
+  color: $white;
+  background: $rose;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.main-menu {
+  padding-top: 16px;
+}
+
+.site-menu {
+  margin: 0;
+  padding: 0;
+
+
+  li {
+    list-style-type: none;
+    margin-bottom: 14px;
+
+    a {
+      @include menu-font;
+      color: $white;
+      background: transparent;
+      padding: 20px 40px ;
+      text-decoration: none;
+      display: inline-block;
+      font-family: 'Orbitron'!important;
+
+    }
+
+    &:hover,
+    &.active {
+      a {
+        @include menu-active;
+      }
+    }
+  }
+}
+
+.navbar-toggler.navbar-toggler-main {
+  background: $rose;
+  margin-left: auto;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  color: #fff;
+}
+
+@media (min-width: 1000px) {
+  .navbar-display-lg .navbar-collapse {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .site-menu {
+    margin-top: 1px;
+    li {
+      margin-bottom: 0;
+      border-bottom: 1px solid $white;
+      a {
+        font-size: 17px;
+      }
+
+      &.active a,
+      a,
+      &:hover a {
+        display: block;
+        border-radius: 0;
+      }
+    }
+  }
+
+  .social-menu-container {
+    padding-top: 0;
+  }
+
+  .main-menu {
+    padding-top: 0px;
+  }
+}

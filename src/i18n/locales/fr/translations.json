@@ -1,0 +1,74 @@
+{
+  "header": {
+    "logo": {
+      "title": "SolaJump",
+      "sub-title": "5555 SolaJumper",
+      "sub-title-2": "Le meilleur Jeux du monde"
+    },
+    "button": "Connecter Solana Wallet"
+  },
+  "nav": {
+    "main": {
+      "menu-1": "index",
+      "menu-2": "Equipe",
+      "menu-3": "Prix",
+      "menu-4": "Demo du Jeu"
+    },
+    "social": {
+      "discord": "Discord",
+      "twitter": "Twitter",
+      "opensea": "Opensea"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "L'ouverture approche",
+      "mint": "Mint",
+      "line-1": "Bienvenue dans l'espace!",
+      "line-2": "The show is about to begin!",
+      "line-3": "When it does, minting will open!",
+      "line-4": "What role will you play in Neo Kabuki?"
+    },
+    "about": {
+      "title": "About",
+      "line-1": "Neo Kabuki is an homage to the 400 year old art form of Kabuki from Japan’s Edo Period.",
+      "line-2": "We love the art and respectfully break from tradition in pursuit of a fresh modern approach to the art form, thus Neo Kabuki.",
+      "line-3": "The Journey starts with our heroes, heroines, samurai, geisha, and/or spirits.  Whom do you relate to? Who expresses how you feel?  What role will you play in our universe?"
+    },
+    "content3": {
+      "title": "All Prize"
+    }, 
+    "content4": {
+      "title": "Demo"
+    },
+    "team": {
+      "title": "Team",
+      "member": {
+        "1": "Jeffos – Creative Director – Jumper",
+        "2": "JimBo² – Artist – Jumper",
+        "3": "Samos – Developer – SolaJumper",
+        "4": "Anonymous - Developer - jumper Solanist"
+      }
+    },
+    "faq": {
+      "title": "Team",
+      "1": {
+        "ques": "How can I buy a Kabuki?",
+        "ans": "When the Theater opens, you will be able to Mint from the website!"
+      },
+      "2": {
+        "ques": "Are there secondary Sale Royalties?",
+        "ans": "Yes, royalties are set at 4.2%"
+      },
+      "3": {
+        "ques": "Do I own the rights to this Kabuki after purchasing?",
+        "ans": "Yes, full intellectual properties of the individual Kabuki are given to the buyer."
+      }
+    },
+    "PageNotFound": {
+      "title": "Page Not Found",
+      "line-1": "This page doesn't seem to exist.",
+      "line-2": "It looks like the link pointing here was faulty."
+    }
+  }
+}

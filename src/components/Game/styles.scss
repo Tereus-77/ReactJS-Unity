@@ -1,0 +1,38 @@
+.game-container {
+  position: relative;
+  // Want to resize the game? Edit these size parameters
+  width: 100%;
+  height: 100%;
+}
+
+.game-loading-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.game-loading-container .loading-bar {
+  width: 90%;
+  max-width: 300px;
+  border-radius: 5px;
+  height: 10px;
+  background: #333;
+  overflow: hidden;
+}
+
+.game-loading-container .loading-bar-fill {
+  background: white;
+  height: 100%;
+  transition: 0.1s width ease-in-out;
+}
+
+.game-unity {
+  width: 100%;
+  height: 100%;
+}

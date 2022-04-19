@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "presale-backup-334213",
+  "private_key_id": "cc375dc5c8d50fbb53745f1b82e8e0329827ccf7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDSoaVSjCXdgNl4\n5BcmKECzj2m/e/j4Kej0YE0co21nCZkNS2W+duFJxNb9PW3KQEpNwac0ZHrqyCRz\nBXQ5gVrjoJYyLLrBYmh/fjyAHRsFazKLb2CjuUB8E51qkDMKliHze+ylPsSLLc1z\nBPPGUu/s+PcPMIev8WwrltKmPybrJrLIeDgVkCp7leC8u6QvWKpL1o6JpKf7Cola\nnXntzf/kWtxFVCyQEzP0L6YEfgNgwZcfHJqAX1Zhyea1bRHMXR316mI4h61TkAg3\nxMae+pW1R5YFer+JhSrp1oPRWYDhZvnI4r32wboYvhhYJ2fyt5GucREGYiKrBVad\npfDeDCxHAgMBAAECggEABDXpIgm7mpKXxle9JJ+aoxc6NVEZi8Mxc+wdHoOLvIrv\nu7C5UkbfXdnxSQXaZecrG9M9G9Do7WTNYYUljJd6Buu4XwcjxkigRv61Ix61MvGw\nmMRYKm20xjH9WAZR7gwJbev+KxBVGo1DbRdNTiJE1PFfRAfxKxUh5RI6x5Q2+ebs\nUOYyKE+2SV2g9h3ivq/Q1zGwhF907qseXe6GKVQOyexTN2Cod3pPdN/cpBJ1ggOn\nml/VzHI9/12HJHERY7DWCbnbo92qf40rgkEuszWFMWml05xNYoa1SAZlxSdXsNd4\nrkCnjHu5w1HUdwx8kp/wd9bZBb8cqG+otMWE9vprYQKBgQD1dr5tfQQmCNs1EMSj\nXUr8t94pfBxLlHzwro9wKtyoUPacRmwmNHpkJiz0IvsP0kiuqSI7T4RSNbcDvTgY\nQqDz7MEqeLe2HSz268JBg1Kf3/5E8v+gUpkoMcu5djgBbhnDlcYj/OEJvX8dk4He\nJCkc8ucysbs7rTqWZYwaHcFeHQKBgQDbrCY1hDrWsrcB0pzd3XEeM2tZS7ztPhrT\nVb0FDzseyfLmC2VHSacr3ZyKsIcgbXVXlrXC75pnswQUpjgyKOobOB6ViRc/dY6c\nP8fA2IR2Tx2x3sQnDc6if59ww3HBz4gR/Z5eOjxGaF3AYvbb98zATf/D7XPKvFy7\nKEfSFm52swKBgHqteArcemBP+M6SrNRA4iNf+aaeIr4bXj4j4AhdQ57TqAz+nTqS\n68B12+3ANd34aN7yJOujmCxGMEusHAbz9eEzKG+Dmb1o43oc5h879OV2W2w2Tk/g\nOC+Ag6MTVHZSgonfpwGBdy8ZCBjOCg/t3qZbN/V8Iml28FsOMXE0Adp5AoGAfkkd\nPi7iVIMxSk7192ZSnXYaBJ/R4OGPMmdb3wi+iBi5Fx79/lmNTV59nA2X4UCL8Oqn\nW4W7UlpLwkM8kzmKPFOq4XSKdOT0M0dHYsoWfJ1HCPZz9a+uVyTfWEhDoZPZOd5/\nqNP5ytA89Vjvac2vW+57VvuvUaGv/bhOcayLnJkCgYAMbg1KHX9Bu9Guvx62FXK8\n2yFPXsEjCtGZcYyrRcfTB7oz3284OuYB8/zptHnV5UdFchO3KKCn+UnYl2DlwnHh\np+AOsHvlnkGcNPlj1b/MHCvjC0XmswYOLJptF1JRJaT0HzmbYynIY8CvfL+KVtXo\n3x+ir+CUc03mxz0zrgjwdQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firestore-backup@presale-backup-334213.iam.gserviceaccount.com",
+  "client_id": "114362919282116486894",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firestore-backup%40presale-backup-334213.iam.gserviceaccount.com"
+}

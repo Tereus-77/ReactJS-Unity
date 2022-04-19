@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "resolveJsonModule":true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "noImplicitAny": false,
+  },
+  "include": [
+    "src"
+  ]
+}
+
+// {
+//   "compilerOptions": {
+//     "module": "commonjs",
+//     "moduleResolution": "node",
+//     "target": "ESNext",
+//     "removeComments": true,
+//     "allowSyntheticDefaultImports": true,
+//     "jsx": "react",
+//     "allowJs": true,
+//     "baseUrl": "src",
+//     "esModuleInterop": true,
+//     "resolveJsonModule": true,
+//     "downlevelIteration": true,
+//     "typeRoots" : ["node_modules/@types", "src/types"],
+//     "paths": {
+//       "*": ["src/*"]
+//     },
+//     "lib": [
+//       "esnext",
+//       "dom",
+//       "dom.iterable"
+//     ],
+//     "sourceMap": true,
+//     "noImplicitAny": false,
+//   },
+//   "exclude": ["node_modules", "build"],
+//   "include": [
+//     "./src",
+//     "/src/**/*.d.ts",
+//     "webpack.config.ts" ]
+// }

@@ -1,0 +1,54 @@
+@import "../../assets/sass/main.scss";
+
+.header {
+  align-items: center;
+}
+
+.mint-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-section {
+  font-size: 80px;
+  font-weight: 600;
+  position: relative;
+  width: 482px;
+  line-height: 1;
+  font-family: $font-family-bubble;
+}
+
+.action-button {
+}
+
+.action-button {
+  font-size: 26px !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  background-color: $rose !important;
+  color: $white !important;
+  border-radius: 50px !important;
+  padding: 17px 19px !important ;
+  line-height: 1.2 !important;
+  margin: 0 0 4px auto !important;
+
+  &:hover,
+  &:active {
+    background-color: $white !important;
+    border-color: $white !important;
+    color: $rose !important;
+  }
+}
+
+.logo-title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: auto;
+}
+
+.logo-image {
+  position: absolute;
+  right: 0;
+  top: -25px;
+}

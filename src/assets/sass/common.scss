@@ -1,0 +1,64 @@
+@import "colors.scss";
+@import "constants.scss";
+
+::selection {
+  background-color: $rose;
+  color: $white;
+}
+
+.font-bubble-game {
+  font-family: $font-family-bubble;
+}
+
+.font-press-start {
+  font-family: $font-family-monospace;
+}
+
+.para-small-margin {
+  margin-bottom: 0.6rem;
+}
+
+.para-large-margin {
+  margin-bottom: 1.8rem;
+}
+
+body h1 {
+  font-family: $font-family-bubble;
+  text-align: center;
+  margin-bottom: 20px;
+  color: $white;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+body h2 {
+  font-family: $font-family-bubble;
+  margin-bottom: 20px;
+  color: $white;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+body h3 {
+  font-family: $font-family-bubble;
+  margin-bottom: 20px;
+  color: $white;
+  font-size: 44px;
+  font-weight: 600;
+  &.alt-font {
+    font-family: $font-family-sans-serif;
+    font-size: 36px;
+  }
+}
+
+body h4 {
+  font-family: $font-family-bubble;
+  color: $white;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  &.alt-font {
+    font-family: $font-family-sans-serif;
+    font-size: 26px;
+  }
+}
